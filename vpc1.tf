@@ -179,6 +179,6 @@ Name = "mysql"
 
 
 
-output  "ip2" {
+output  "ip-2" {
 value = aws_instance.mysql.public_ip
 }
